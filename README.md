@@ -27,4 +27,4 @@
     google-pprof --web ./main ./main.prof
     ```
 
-![](https://raw.githubusercontent.com/01joy/TestGperftools/master/profiler-output.svg)
+![](https://raw.githubusercontent.com/01joy/TestGperftools/master/profiler-output.gif)
