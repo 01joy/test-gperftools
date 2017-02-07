@@ -5,7 +5,7 @@
 sudo apt-get install google-perftools graphviz
 ```
 2. 下载本项目代码
-3. 编译本项目，项目根目录执行
+3. 编译本项目，在项目根目录执行
 ```
 make
 ```
@@ -20,4 +20,4 @@ LD_PRELOAD=/usr/lib/libprofiler.so.0 CPUPROFILE=./main.prof ./main
 6. 查看性能分析结果
 ```
 google-pprof --web ./main ./main.prof
-``` 
+```
